@@ -1,8 +1,12 @@
 package pwo.seq;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.math.BigDecimal;
 
+@Slf4j
 public class LucasGenerator extends FibonacciGenerator{
+
     public LucasGenerator() {
         current = new BigDecimal(2);
         f_2 = new BigDecimal(2);
